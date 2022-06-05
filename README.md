@@ -1,0 +1,2 @@
+# Image Map in Vue 3
+This repo just contains a simple image map component, which takes coordinated from a specified object and maps interactable areas to the inner image. Not to be confused with an html Image Map, this method allows for styling of interacable areas as opposed to using an Image Map. It also is simpler than mapping a Canvas over an Image Map, which is a popular technique these days
