@@ -1,6 +1,6 @@
 import { createApp } from 'vue'
-import App from './App.vue'
+import Index from './index.vue'
 
-const app = createApp(App)
+const app = createApp(Index)
 
 app.mount('#app')
