@@ -1,8 +1,7 @@
 <script lang="ts">
-import { computed, defineComponent, ref, watch } from "vue";
+import { computed, defineComponent, ref } from "vue";
 import { imageMaps } from "../includes/imageMaps";
 import { useRouter } from "vue-router";
-import { cloneDeep } from "lodash";
 
 export default defineComponent({
   name: "ULPublicImageMap",
@@ -17,7 +16,7 @@ const props = defineProps<{
 }>();
 
 const selected = computed(() =>
-  cloneDeep(imageMaps.find((item) => item.name === props.slug))
+  imageMaps.find((item) => item.name === props.slug)
 );
 
 const mappedCoords = ref<number[] | null>([]);
