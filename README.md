@@ -1,39 +1,9 @@
-# canvas
+# Image Map in Vue 3
+This repo just contains a simple image map component, which takes coordinates from a specified object and maps interact-able areas to the inner image. Not to be confused with an html map element, this method allows for styling of interact-able areas as opposed to using an area map
 
-This template should help get you started developing with Vue 3 in Vite.
+**Making an Image Map**
 
-## Recommended IDE Setup
+you can generate an image map for free at https://www.image-map.net/
 
-[VSCode](https://code.visualstudio.com/) + [Volar](https://marketplace.visualstudio.com/items?itemName=Vue.volar) (and disable Vetur).
+https://github.com/MakanaMakesStuff/Canvas-Image-Map/assets/37227196/7a83ea40-3782-4c57-8534-c25d64390c6d
 
-## Type Support for `.vue` Imports in TS
-
-TypeScript cannot handle type information for `.vue` imports by default, so we replace the `tsc` CLI with `vue-tsc` for type checking. In editors, we need [Volar](https://marketplace.visualstudio.com/items?itemName=Vue.volar) to make the TypeScript language service aware of `.vue` types.
-
-## Customize configuration
-
-See [Vite Configuration Reference](https://vitejs.dev/config/).
-
-## Project Setup
-
-```sh
-npm install
-```
-
-### Compile and Hot-Reload for Development
-
-```sh
-npm run dev
-```
-
-### Type-Check, Compile and Minify for Production
-
-```sh
-npm run build
-```
-
-### Lint with [ESLint](https://eslint.org/)
-
-```sh
-npm run lint
-```
